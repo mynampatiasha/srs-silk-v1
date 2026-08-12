@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SRS Silk Traders — Chickpet, Bengaluru</title>
+  <meta name="description"
+    content="SRS Silk Traders in Chickpet, Bengaluru offers premium pure silk sarees, kanjeevaram silks, and custom blouse stitching. Wholesale and retail.">
+  <meta name="keywords"
+    content="Silk Sarees in Chickpet, Wholesale Silk Sarees Bengaluru, Best Saree Shop Avenue Road, SRS Silk Traders, Custom Saree Stitching">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+
+  <!-- ═══════════════════════════════════════
+       NAVIGATION
+  ═══════════════════════════════════════ -->
+  <nav class="nav" id="navbar">
+    <div class="nav-logo">
+      SRS Silk Traders
+      <span>Chickpet, Bengaluru · Premium Silks</span>
+    </div>
+    <div class="nav-links" id="nav-links">
+      <a href="#collection">Collection</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#about">About</a>
+      <a href="#contact" class="nav-contact-link">Contact Us</a>
+    </div>
+    <div class="nav-actions">
+      <button class="nav-btn" id="cart-toggle-btn" title="Cart" aria-label="Open cart">
+        <i class="fa-solid fa-bag-shopping"></i>
+        <span class="cart-count" id="cart-count" style="display:none">0</span>
+      </button>
+      <button class="nav-btn hamburger" id="hamburger" aria-label="Toggle menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ═══════════════════════════════════════
+       HERO
+  ═══════════════════════════════════════ -->
+  <section class="hero">
+    <div class="hero-text">
+      <div class="hero-eyebrow">✦ Authentic Pure Silk ✦</div>
+      <h1>The Elegance of<br><em>Silk</em><br>Lives Here</h1>
+      <p>Premium pure silk sarees, handwoven Kanjeevarams, and exquisite bridal collections from the heart of Chickpet,
+        Bengaluru.</p>
+      <div class="hero-badges">
+        <span class="badge">✨ Pure Silk</span>
+        <span class="badge">🥻 Wholesale & Retail</span>
+        <span class="badge">✂️ Custom Stitching</span>
+        <span class="badge">⭐ 4.7 Rated</span>
+      </div>
+      <div class="hero-cta">
+        <a href="#collection" class="btn-primary">Shop Collection</a>
+        <a href="#contact" class="btn-secondary">Customise an Order</a>
+      </div>
+    </div>
+    <div class="hero-img">
+      <!-- Premium silk saree display -->
+      <img src="srs_hero_image_1779810349059.png"
+        alt="Beautiful Indian woman wearing a rich Kanjeevaram pure silk saree"
+        onerror="this.style.background='#d4b896';this.style.display='block'" />
+      <div class="hero-tag">📍 Chickpet, Bengaluru</div>
+    </div>
+  </section>
+
+  <div class="divider-strip">? &nbsp; Premium Quality � Women & Kids Wear � In-store Shopping � Fast Delivery &nbsp; ?</div>
+
+    <!-- FULL WIDTH BANNER CAROUSEL -->
+    <section class="banner-carousel" id="banner-carousel" style="width: 100%; overflow: hidden; position: relative; background: #fafafa; display: none;"></section>
+  
+  <!-- FLIPKART STYLE CATEGORIES -->
+  <section class="flipkart-categories" id="flipkart-cats">
+    <!-- Populated by JS -->
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       FILTERS + COLLECTION
+  ═══════════════════════════════════════ -->
+  <section class="collection-section" id="collection">
+    <div class="section-head">
+      <h2>Our Collection</h2>
+      <p>Exquisite silk sarees for weddings, special occasions, and bulk wholesale</p>
+    </div>
+
+    <div class="filters" id="filters">
+      <span class="filter-label">Filter by:</span>
+      <button class="filter-btn active" data-cat="all">All</button>
+      <button class="filter-btn" data-cat="bridal">Bridal Silk</button>
+      <button class="filter-btn" data-cat="soft_silk">Soft Silk</button>
+      <button class="filter-btn" data-cat="wholesale">Wholesale Bundles</button>
+    </div>
+
+    <div class="products-meta">
+      <small id="prod-count">Showing all pieces</small>
+    </div>
+
+    <div class="products-grid" id="products-grid">
+      <!-- Populated by JS -->
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       CUSTOMISE BANNER
+  ═══════════════════════════════════════ -->
+  <section class="custom-banner">
+    <div class="custom-banner-inner">
+      <div>
+        <h3>Perfect Stitching & Blouse Design</h3>
+        <p>We offer premium custom blouse stitching with intricate embroidery to match your beautiful silk saree.
+          Delivered quickly with perfect fit!</p>
+      </div>
+      <a href="#contact" class="btn-primary btn-light">Request Stitching →</a>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       REVIEWS
+  ═══════════════════════════════════════ -->
+  <section class="reviews-section" id="reviews">
+    <div class="section-head">
+      <h2>What Our Customers Say</h2>
+      <p>Real experiences from buyers across India and the World</p>
+    </div>
+    <div class="reviews-grid" id="reviews-grid">
+      <!-- Populated by JS -->
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       GALLERY
+  ═══════════════════════════════════════ -->
+  <section class="gallery-section" id="gallery">
+    <div class="section-head">
+      <h2>Our Shop & Craft</h2>
+      <p>Visit us in Chickpet or order online. We provide the finest silks and tailoring.</p>
+    </div>
+    <div class="gallery-grid" id="gallery-grid">
+      <!-- Populated by JS -->
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       ABOUT
+  ═══════════════════════════════════════ -->
+  <section class="about-section" id="about">
+    <div class="about-text">
+      <h2>About SRS Silk Traders</h2>
+      <p>Located in the heart of Chickpet, Bengaluru, SRS Silk Traders is your trusted destination for premium silk
+        sarees. With a stellar 4.7 rating from hundreds of happy customers, we are known for our nice collections,
+        comfortable prices, and excellent service.</p>
+      <p style="margin-top:12px">Whether you are a retail customer looking for a bridal saree or a manufacturer looking
+        for wholesale supply, we have you covered. We also offer perfect custom blouse stitching and can ship
+        internationally.</p>
+    </div>
+    <div class="about-facts">
+      <div class="fact">
+        <span class="fact-icon">✨</span>
+        <div>
+          <strong>Premium Quality</strong>
+          <span>Pure Kanjeevaram & Soft Silk</span>
+        </div>
+      </div>
+      <div class="fact">
+        <span class="fact-icon">✂️</span>
+        <div>
+          <strong>Perfect Stitching</strong>
+          <span>Custom blouse designs</span>
+        </div>
+      </div>
+      <div class="fact">
+        <span class="fact-icon">📦</span>
+        <div>
+          <strong>Wholesale & Retail</strong>
+          <span>Bulk orders welcome</span>
+        </div>
+      </div>
+      <div class="fact">
+        <span class="fact-icon">🌍</span>
+        <div>
+          <strong>Global Shipping</strong>
+          <span>We ship worldwide (e.g., USA)</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       FAQ SECTION
+  ═══════════════════════════════════════ -->
+  <section class="faq-section" id="faq">
+    <div class="section-head">
+      <h2>Frequently Asked Questions</h2>
+      <p>Everything you need to know before visiting SRS Silk Traders</p>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question">
+        What types of silk sarees do you sell?
+        <i class="fa-solid fa-plus"></i>
+      </div>
+      <div class="faq-answer">
+        We specialize in premium pure silk sarees, including handwoven Kanjeevarams, Soft Silks, Bridal collections, and
+        traditional silks from across India.
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question">
+        Where exactly is SRS Silk Traders located?
+        <i class="fa-solid fa-plus"></i>
+      </div>
+      <div class="faq-answer">
+        We are located on the 1st Floor of Murugan Building, No 510/A, Avenue Road, right beside Davanam Jewels in
+        Chickpet, Bengaluru.
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question">
+        What are the store timings?
+        <i class="fa-solid fa-plus"></i>
+      </div>
+      <div class="faq-answer">
+        We are open 7 days a week! Monday to Saturday from 10 AM to 8 PM, and on Sundays from 10 AM to 7 PM.
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question">
+        Do you offer custom blouse stitching?
+        <i class="fa-solid fa-plus"></i>
+      </div>
+      <div class="faq-answer">
+        Yes! We provide perfect custom blouse stitching with intricate embroidery and designs to perfectly match your
+        silk saree.
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question">
+        Do you accept wholesale orders?
+        <i class="fa-solid fa-plus"></i>
+      </div>
+      <div class="faq-answer">
+        Absolutely. As a leading supplier in Chickpet, we cater to both retail customers and wholesale buyers looking
+        for bulk saree bundles at competitive prices.
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       CONTACT / CUSTOMISE FORM
+  ═══════════════════════════════════════ -->
+  <section class="contact-section" id="contact">
+    <div style="max-width: var(--max-w); margin: 0 auto 48px;">
+      <img src="srs_contact_banner_new_1779852919629.png" alt="Customise Your Silk Order" class="contact-banner-img" />
+    </div>
+    <div class="contact-wrapper">
+
+      <!-- Left: Info -->
+      <div class="contact-info">
+        <div class="contact-eyebrow">✦ Get in Touch</div>
+        <h2>Contact Us &amp;<br>Customise Your Order</h2>
+        <p>Looking for a specific silk saree, custom blouse stitching, or wholesale supply? Fill out the form and our
+          team will personally get back to you.</p>
+
+        <div class="contact-details">
+          <div class="contact-detail-item">
+            <i class="fa-solid fa-location-dot"></i>
+            <span>1ST FLOOR, Murugan Building, NO 510/A, Avenue Rd, Chickpet, Bengaluru 560002</span>
+          </div>
+          <div class="contact-detail-item">
+            <i class="fa-solid fa-phone"></i>
+            <span>093412 18059</span>
+          </div>
+          <div class="contact-detail-item">
+            <i class="fa-solid fa-clock"></i>
+            <span>Mon – Sat: 10 AM – 8 PM | Sun: 10 AM – 7 PM</span>
+          </div>
+          <div class="contact-detail-item">
+            <i class="fa-solid fa-truck"></i>
+            <span>Global shipping available (including USA)</span>
+          </div>
+        </div>
+
+        <div class="contact-note">
+          <strong>Services we offer:</strong>
+          <ul>
+            <li>Retail Silk Sarees (Bridal, Soft Silk)</li>
+            <li>Wholesale / Bulk Orders</li>
+            <li>Perfect Blouse Stitching</li>
+            <li>Virtual Shopping via WhatsApp</li>
+            <li>International Delivery</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Right: Form -->
+      <div class="contact-form-wrap">
+        <form class="contact-form" id="contact-form" novalidate>
+
+          <div class="form-row two-col">
+            <div class="form-group">
+              <label for="cf-name">Full Name <span class="req">*</span></label>
+              <input type="text" id="cf-name" name="name" placeholder="e.g. Priya Sharma" required />
+              <span class="field-error" id="err-name"></span>
+            </div>
+            <div class="form-group">
+              <label for="cf-phone">Phone Number <span class="req">*</span></label>
+              <input type="tel" id="cf-phone" name="phone" placeholder="e.g. 98765 43210" required />
+              <span class="field-error" id="err-phone"></span>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="cf-email">Email Address <span class="req">*</span></label>
+            <input type="email" id="cf-email" name="email" placeholder="e.g. priya@gmail.com" required />
+            <span class="field-error" id="err-email"></span>
+          </div>
+
+          <div class="form-row two-col">
+            <div class="form-group">
+              <label for="cf-type">Enquiry Type <span class="req">*</span></label>
+              <select id="cf-type" name="enquiry_type" required>
+                <option value="">— Select —</option>
+                <option value="custom_order">Custom Stitching / Request</option>
+                <option value="existing_product">Question about a Product</option>
+                <option value="wholesale">Wholesale / Bulk Order</option>
+                <option value="shipping">Shipping &amp; Delivery</option>
+                <option value="other">Other</option>
+              </select>
+              <span class="field-error" id="err-type"></span>
+            </div>
+            <div class="form-group">
+              <label for="cf-product">Product Category</label>
+              <select id="cf-product" name="product_category">
+                <option value="">— Select (optional) —</option>
+                <option value="bridal_silk">Bridal Silk Saree</option>
+                <option value="soft_silk">Soft Silk Saree</option>
+                <option value="wholesale">Wholesale Bundle</option>
+                <option value="stitching">Custom Blouse Stitching</option>
+                <option value="other">Other / Not sure yet</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Customisation fields — shown only when custom_order is selected -->
+          <div class="custom-fields" id="custom-fields" style="display:none">
+            <div class="custom-fields-title">
+              <i class="fa-solid fa-paintbrush"></i> Customisation Details
+            </div>
+            <div class="form-row two-col">
+              <div class="form-group">
+                <label for="cf-motif">Specific Requirements</label>
+                <input type="text" id="cf-motif" name="motif" placeholder="e.g. Blouse stitching, Bridal colors" />
+              </div>
+              <div class="form-group">
+                <label for="cf-fabric">Preferred Fabric</label>
+                <select id="cf-fabric" name="fabric">
+                  <option value="">— Select —</option>
+                  <option value="kanjeevaram">Kanjeevaram Silk</option>
+                  <option value="soft_silk">Soft Silk</option>
+                  <option value="banarasi">Banarasi Silk</option>
+                  <option value="not_sure">Not sure — suggest one</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-row two-col">
+              <div class="form-group">
+                <label for="cf-colors">Colour Preferences</label>
+                <input type="text" id="cf-colors" name="colors" placeholder="e.g. Red & Gold, Pastel Green" />
+              </div>
+              <div class="form-group">
+                <label for="cf-budget">Approximate Budget</label>
+                <select id="cf-budget" name="budget">
+                  <option value="">— Select —</option>
+                  <option value="under_5000">Under ₹5,000</option>
+                  <option value="5000_10000">₹5,000 – ₹10,000</option>
+                  <option value="10000_20000">₹10,000 – ₹20,000</option>
+                  <option value="above_20000">Above ₹20,000</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="cf-message">Your Message <span class="req">*</span></label>
+            <textarea id="cf-message" name="message" rows="4"
+              placeholder="Tell us what you're looking for — design ideas, delivery timeline, or any questions..."
+              required></textarea>
+            <span class="field-error" id="err-message"></span>
+          </div>
+
+          <div class="form-group checkbox-group">
+            <label class="checkbox-label">
+              <input type="checkbox" id="cf-whatsapp" name="whatsapp" />
+              <span>I'm happy to be contacted on WhatsApp for order updates</span>
+            </label>
+          </div>
+
+          <button type="submit" class="form-submit" id="form-submit">
+            <span id="submit-text">Send Message</span>
+            <i class="fa-solid fa-paper-plane" id="submit-icon"></i>
+          </button>
+
+          <!-- Success message -->
+          <div class="form-success" id="form-success" style="display:none">
+            <i class="fa-solid fa-circle-check"></i>
+            <strong>Thank you!</strong> Your message has been sent. Our team will get back to you shortly.
+          </div>
+
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════════ -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="footer-logo">SRS Silk Traders</div>
+        <p>Premium silk sarees, kanjeevarams, and expert blouse stitching from Chickpet, Bengaluru.</p>
+        <div class="footer-badges">
+          <span>✅ Top Rated (4.7)</span>
+          <span>🚚 Global Shipping</span>
+        </div>
+      </div>
+      <div class="footer-links">
+        <strong>Quick Links</strong>
+        <a href="#collection">Shop Collection</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact / Customise</a>
+      </div>
+      <div class="footer-contact">
+        <strong>Find Us</strong>
+        <p>1ST FLOOR, Murugan Building<br>Avenue Rd, Chickpet<br>Bengaluru, Karnataka 560002</p>
+        <p>📞 093412 18059</p>
+        <p>🕐 Mon – Sat: 10 AM – 8 PM | Sun: 10 AM – 7 PM</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      © 2026 SRS Silk Traders · All rights reserved · Made with ♥ in Bengaluru
+    </div>
+  </footer>
+
+  <!-- ═══════════════════════════════════════
+       CART PANEL
+  ═══════════════════════════════════════ -->
+  <div class="cart-overlay" id="cart-overlay"></div>
+  <aside class="cart-panel" id="cart-panel" aria-label="Shopping cart">
+    <div class="cart-head">
+      <h3>Your Cart</h3>
+      <button class="close-btn" id="cart-close-btn" aria-label="Close cart">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
+    <div id="cart-items"></div>
+  </aside>
+
+  <!-- Toast notification -->
+  <div id="toast" role="status" aria-live="polite"></div>
+
+  <!-- ═══════════════════════════════════════
+       CHECKOUT MODAL
+  ═══════════════════════════════════════ -->
+  <div class="checkout-overlay" id="checkout-overlay"></div>
+  <div class="checkout-modal" id="checkout-modal" aria-label="Checkout details">
+    <div class="checkout-head">
+      <h3>Checkout Details</h3>
+      <button class="close-btn" id="checkout-close-btn" aria-label="Close checkout">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
+    <div class="checkout-body">
+      <form id="checkout-form" novalidate>
+        <div class="form-group" style="margin-bottom: 16px;">
+          <label for="co-name">Full Name <span class="req">*</span></label>
+          <input type="text" id="co-name" required placeholder="e.g. Priya Sharma">
+        </div>
+        <div class="form-group" style="margin-bottom: 16px;">
+          <label for="co-phone">Phone Number <span class="req">*</span></label>
+          <input type="tel" id="co-phone" required placeholder="e.g. 98765 43210">
+        </div>
+        <div class="form-group" style="margin-bottom: 16px;">
+          <label for="co-address">Delivery Address <span class="req">*</span></label>
+          <textarea id="co-address" required rows="3" placeholder="Enter your full manual address"></textarea>
+        </div>
+        <div class="form-group" style="margin-bottom: 24px;">
+          <label>GPS Location (Optional)</label>
+          <button type="button" class="btn-secondary" id="co-location-btn"
+            style="width: 100%; font-size: 13px; padding: 10px; display: flex; align-items: center; justify-content: center; gap: 8px;">
+            <i class="fa-solid fa-location-crosshairs"></i> Capture My Location
+          </button>
+          <input type="hidden" id="co-coords" value="">
+          <div id="co-location-status"
+            style="font-size: 12px; color: var(--muted); margin-top: 6px; text-align: center;"></div>
+        </div>
+        <button type="submit" class="form-submit">
+          Place Order via WhatsApp <i class="fa-brands fa-whatsapp" style="font-size: 18px; margin-left: 4px;"></i>
+        </button>
+      </form>
+    </div>
+  </div>
+
+    <!-- Firebase Compat libraries -->
+  <script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-firestore-compat.js"></script>
+  <script src="index.js"></script>
+  <!-- PRODUCT MODAL -->
+  <div class="modal" id="product-modal">
+    <div class="modal-content" style="max-width: 900px; padding: 0;">
+      <span class="modal-close" onclick="closeProductModal()">&times;</span>
+      <div class="product-modal-body" style="display: flex; flex-wrap: wrap;">
+        <div class="pm-images" style="flex: 1; min-width: 300px; background: #fafafa; padding: 20px;">
+          <img id="pm-main-img" src="" style="width: 100%; height: auto; border-radius: 8px;">
+          <div id="pm-thumbnails" style="display: flex; gap: 10px; margin-top: 15px; overflow-x: auto;"></div>
+        </div>
+        <div class="pm-info" style="flex: 1; min-width: 300px; padding: 30px;">
+          <h2 id="pm-name" style="margin-top:0; color:#333;"></h2>
+          <div class="price" style="font-size: 24px; color: #d4b896; margin-bottom: 20px;">
+            <span id="pm-price"></span>
+            <strike id="pm-orig" style="color: #999; font-size: 16px; margin-left: 10px;"></strike>
+          </div>
+          <p id="pm-desc" style="color: #666; line-height: 1.6;"></p>
+          <div style="margin-top: 30px;">
+            <button class="btn-primary" id="pm-btn-cart" style="width: 100%; margin-bottom: 15px;">Add to Cart</button>
+            <button class="btn-secondary" id="pm-btn-wa" style="width: 100%; margin-bottom: 15px;">Enquire on WhatsApp</button><button class="btn-secondary" id="pm-btn-share" style="width: 100%; background: #eee; color: #333; border: 1px solid #ccc;">Share This Product</button>
+          </div>
+        </div>
+      </div>
+      <div class="pm-related" style="padding: 30px; border-top: 1px solid #eee;">
+        <h3 style="margin-top:0;">Related Products</h3>
+        <div class="products-grid" id="pm-related-grid" style="grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));"></div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
+
+
+
+
+
+
